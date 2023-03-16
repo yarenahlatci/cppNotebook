@@ -18,7 +18,7 @@ int main() {
 	return 0; 
 }
 // ---------------------------------------------------------------------------
-//Örnek 2
+//Örnek 2 
 #include <iostream> 
 #include <locale.h>
 using namespace std; 
@@ -28,7 +28,7 @@ int main() {
 	float sayi1;
 	float sayi2;
 	float toplam;
-	float cıkar;
+    float cıkar;
 	float bol;
 	float carp; 
 
@@ -38,10 +38,12 @@ int main() {
 	cin >> sayi1;
 	cout << "İkinci sayi: ";
 	cin >> sayi2;
+	
 	toplam = sayi1 + sayi2;
 	cıkar = sayi1 - sayi2;
-	bol = sayi1 / sayi2;
 	carp = sayi1 * sayi2;
+	bol = sayi1 / sayi2;
+
 
 	cout << "Sayıların toplamları: "<<toplam << endl;
 	cout << "Sayıların cıkarması: " << cıkar << endl;
