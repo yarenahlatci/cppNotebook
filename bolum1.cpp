@@ -26,3 +26,17 @@ int main() {
 
 	return 0; 
 }
+
+/*
+Kodlarımıza giriş yaparken #include <iostream> komutu altında kütüphanemizi çağırmış olduk.
+Bu kütüphanemiz sayesinde programın standart girdi ve çıktı bilgilerini içerebilmesini sağlar.
+Cout sayesinde ekrana bir çıktı verdirebilir ve Cin sayesinde kullanıcıdan bir girdi alabiliriz.
+\n ifadesini veya endl ifadesi ile alt satıra geçebiliriz.
+İnt tam sayıları tutar,float ve double kesirli sayıları tutar,bool true veya false,char karakterleri tutar.
+Ram'de saklandıkları yerler;
+İnt 4 byte
+Double 8 byte
+Char 1 byte
+Float 4 byte
+
+*/
